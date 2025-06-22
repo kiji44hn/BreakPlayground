@@ -15,6 +15,9 @@ Unityの基本機能をベースに、**衝突検知・リセット処理**な�
 - ブロックに当てると、ブロックが消え、ボールが初期位置に戻る
 - ミニゲームとして何度も繰り返し楽しめます
 
+## 🎥 デモ動画
+[▶️ BreakPlayground プレイ動画を見る](https://drive.google.com/file/d/1bxgKRH79Ib1ziizvMVac9TX4jdcZjrNI/view?usp=drive_link)
+
 ## 🚧 今後の開発予定
 - 🔢 スコアカウント機能
 - 🧱 ブロックの複数生成＆ランダム配置
