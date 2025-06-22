@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Unity.InteractiveTutorials;
 using UnityEditor;
 
 namespace Unity.Tutorials
@@ -15,10 +14,10 @@ namespace Unity.Tutorials
         /// Selects a GameObject in the scene, marking it as the active object for selection
         /// </summary>
         /// <param name="futureObjectReference"></param>
-        public void SelectSpawnedGameObject(FutureObjectReference futureObjectReference)
+        public void SelectSpawnedGameObject(GameObject sceneObject)
         {
-            if (futureObjectReference.sceneObjectReference == null) { return; }
-            SelectGameObject(futureObjectReference.sceneObjectReference.ReferencedObjectAsGameObject);
+            if (!sceneObject) { return; }
+            SelectGameObject(sceneObject);
         }
 
         public void SelectGameObject(GameObject gameObject)
