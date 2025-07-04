@@ -8,11 +8,30 @@ public class BallController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector3 startPos;
     public ParticleSystem myParticleSystem; // エフェクトをアタッチする
+    public GameObject breakEffect; // ブロック破壊エフェクトをアタッチする
 
     private bool effectTriggered = false; // トリガー制御用フラグ
 
     void Start()
     {
+        UnityEngine.Debug.Log("Start メソッドが呼び出されました！"); // 動作確認用
+        if (breakEffect == null)
+        {
+            UnityEngine.Debug.LogError("BreakEffect が設定されていません！");
+        }
+        else
+        {
+            UnityEngine.Debug.Log("BreakEffect が設定されています！");
+        }
+
+        if (myParticleSystem == null)
+        {
+            UnityEngine.Debug.LogError("MyParticleSystem が設定されていません！");
+        }
+        else
+        {
+            UnityEngine.Debug.Log("MyParticleSystem が設定されています！");
+        }
         rb = GetComponent<Rigidbody2D>();
         startPos = transform.position; // 初期位置を記憶
     }
@@ -37,7 +56,10 @@ public class BallController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Block"))
         {
-            collision.gameObject.SetActive(false); // ブロックを消す
+            UnityEngine.Debug.Log("エフェクト生成開始！");
+            Instantiate(breakEffect, transform.position, Quaternion.identity); // パーティクル生成
+            UnityEngine.Debug.Log("エフェクト生成完了！");
+            Destroy(collision.gameObject, 0.5f); // 0.5秒後に破壊
             rb.velocity = Vector2.zero; // 速度をリセット
             transform.position = startPos; // 初期位置に戻す
         }
@@ -70,5 +92,4 @@ public class BallController : MonoBehaviour
         myParticleSystem.Stop();
         myParticleSystem.Clear();
     }
-
 }
