@@ -48,7 +48,7 @@ public class BallController : MonoBehaviour
         // ボールの画面内制限
         Vector3 pos = transform.position;
         pos.x = Mathf.Clamp(pos.x, -8f, 8f); // X方向の範囲制限
-        pos.y = Mathf.Clamp(pos.y, -0.03f, 5f); // Y方向の範囲制限
+        pos.y = Mathf.Clamp(pos.y, -2.5f, 5f); // Y方向の範囲制限
         transform.position = pos;
     }
 

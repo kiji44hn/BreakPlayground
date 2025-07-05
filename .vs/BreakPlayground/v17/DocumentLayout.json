@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A91855-EB1C-8029-9633-7C2DF75A2204}|Assembly-CSharp.csproj|c:\\users\\koji aizawa\\onedrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\breakplayground\\assets\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A91855-EB1C-8029-9633-7C2DF75A2204}|Assembly-CSharp.csproj|solutionrelative:assets\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BackgroundChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\BackgroundChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BallController.cs",
+              "DocumentMoniker": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BallController.cs",
+              "RelativeDocumentMoniker": "Assets\\BallController.cs",
+              "ToolTip": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BallController.cs",
+              "RelativeToolTip": "Assets\\BallController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T05:02:28.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BackgroundChanger.cs",
+              "DocumentMoniker": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BackgroundChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\BackgroundChanger.cs",
+              "ToolTip": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BackgroundChanger.cs",
+              "RelativeToolTip": "Assets\\BackgroundChanger.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T05:02:27.765Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
