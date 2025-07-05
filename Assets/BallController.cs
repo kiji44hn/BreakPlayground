@@ -14,24 +14,6 @@ public class BallController : MonoBehaviour
 
     void Start()
     {
-        UnityEngine.Debug.Log("Start メソッドが呼び出されました！"); // 動作確認用
-        if (breakEffect == null)
-        {
-            UnityEngine.Debug.LogError("BreakEffect が設定されていません！");
-        }
-        else
-        {
-            UnityEngine.Debug.Log("BreakEffect が設定されています！");
-        }
-
-        if (myParticleSystem == null)
-        {
-            UnityEngine.Debug.LogError("MyParticleSystem が設定されていません！");
-        }
-        else
-        {
-            UnityEngine.Debug.Log("MyParticleSystem が設定されています！");
-        }
         rb = GetComponent<Rigidbody2D>();
         startPos = transform.position; // 初期位置を記憶
     }
@@ -54,11 +36,12 @@ public class BallController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        var main = myParticleSystem.main;
+        main.startColor = new Color(0.9433962f, 0.9027687f, 0.6719473f); // 好きな色（R, G, B）
+
         if (collision.gameObject.CompareTag("Block"))
         {
-            UnityEngine.Debug.Log("エフェクト生成開始！");
             Instantiate(breakEffect, transform.position, Quaternion.identity); // パーティクル生成
-            UnityEngine.Debug.Log("エフェクト生成完了！");
             Destroy(collision.gameObject, 0.5f); // 0.5秒後に破壊
             rb.velocity = Vector2.zero; // 速度をリセット
             transform.position = startPos; // 初期位置に戻す
@@ -67,7 +50,6 @@ public class BallController : MonoBehaviour
         {
             effectTriggered = true; // トリガーを一度だけ実行
             myParticleSystem.Play(); // パーティクル再生
-            UnityEngine.Debug.Log("エフェクト再生！");
 
             StartCoroutine(ResetEffectTrigger()); // トリガーのリセット処理
             TriggerEffectWithDuration(10f); // 10秒間再生して停止
