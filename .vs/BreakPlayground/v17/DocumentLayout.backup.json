@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80A91855-EB1C-8029-9633-7C2DF75A2204}|Assembly-CSharp.csproj|c:\\users\\koji aizawa\\onedrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\breakplayground\\assets\\prayereffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A91855-EB1C-8029-9633-7C2DF75A2204}|Assembly-CSharp.csproj|solutionrelative:assets\\prayereffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80A91855-EB1C-8029-9633-7C2DF75A2204}|Assembly-CSharp.csproj|c:\\users\\koji aizawa\\onedrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\breakplayground\\assets\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80A91855-EB1C-8029-9633-7C2DF75A2204}|Assembly-CSharp.csproj|solutionrelative:assets\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PrayerEffect.cs",
+              "DocumentMoniker": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\PrayerEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\PrayerEffect.cs",
+              "ToolTip": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\PrayerEffect.cs",
+              "RelativeToolTip": "Assets\\PrayerEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T07:17:52.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BallController.cs",
               "DocumentMoniker": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BallController.cs",
               "RelativeDocumentMoniker": "Assets\\BallController.cs",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BackgroundChanger.cs",
               "DocumentMoniker": "C:\\Users\\Koji Aizawa\\OneDrive\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\workspace\\BreakPlayground\\Assets\\BackgroundChanger.cs",
               "RelativeDocumentMoniker": "Assets\\BackgroundChanger.cs",
