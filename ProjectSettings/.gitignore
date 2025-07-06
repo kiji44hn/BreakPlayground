@@ -1,0 +1,4 @@
+# 任意の除外設定（Unityサービス関連）
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/VersionControlSettings.asset
+ProjectSettings/ProjectVersion.txt
