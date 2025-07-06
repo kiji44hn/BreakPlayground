@@ -36,8 +36,9 @@ public class BallController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        // パーティクルの色を設定
         var main = myParticleSystem.main;
-        main.startColor = new Color(0.9433962f, 0.9027687f, 0.6719473f); // 好きな色（R, G, B）
+        main.startColor = new Color(226f / 255f, 217f / 255f, 165f / 255f); // 正規化されたRGB値
 
         if (collision.gameObject.CompareTag("Block"))
         {
@@ -62,6 +63,7 @@ public class BallController : MonoBehaviour
             TriggerEffectWithDuration(10f); // 10秒間再生して停止
         }
     }
+
 
     // ブロックを復活させるコルーチン
     IEnumerator RespawnBlock(GameObject block)
