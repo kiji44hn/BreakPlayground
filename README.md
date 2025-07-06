@@ -16,7 +16,7 @@ Unityの基本機能をベースに、**衝突検知・リセット処理**な�
 - ミニゲームとして何度も繰り返し楽しめます
 
 ## 🎥 デモ動画
-[▶️ BreakPlayground プレイ動画を見る](https://drive.google.com/file/d/1bxgKRH79Ib1ziizvMVac9TX4jdcZjrNI/view?usp=drive_link)
+[▶️ BreakPlayground プレイ動画を見る]([https://drive.google.com/file/d/1bxgKRH79Ib1ziizvMVac9TX4jdcZjrNI/view?usp=drive_link](https://drive.google.com/file/d/1M_CdZ1pXaZ2u9Nl2GFbNuEUFkxYU3c1J/view?usp=drive_link))
 
 ## 🚧 今後の開発予定
 - 🔢 スコアカウント機能
