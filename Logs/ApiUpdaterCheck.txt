@@ -89,3 +89,13 @@ C# parse time         : 558ms
 candidates check time : 38ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 2025/07/06 10:19:20 : Starting C:/Users/Koji Aizawa/OneDrive/Documents/2020.3.48f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 3211.2936ms
+moved types parse time: 67ms
+candidates parse time : 1ms
+C# parse time         : 480ms
+candidates check time : 30ms
+console write time    : 0ms
+

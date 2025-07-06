@@ -42,7 +42,14 @@ public class BallController : MonoBehaviour
         if (collision.gameObject.CompareTag("Block"))
         {
             Instantiate(breakEffect, transform.position, Quaternion.identity); // パーティクル生成
-            Destroy(collision.gameObject, 0.5f); // 0.5秒後に破壊
+
+            // ブロックを一時的に非アクティブ化
+            GameObject block = collision.gameObject;
+            block.SetActive(false);
+
+            // 5秒後に復活させる
+            StartCoroutine(RespawnBlock(block));
+
             rb.velocity = Vector2.zero; // 速度をリセット
             transform.position = startPos; // 初期位置に戻す
         }
@@ -55,6 +62,14 @@ public class BallController : MonoBehaviour
             TriggerEffectWithDuration(10f); // 10秒間再生して停止
         }
     }
+
+    // ブロックを復活させるコルーチン
+    IEnumerator RespawnBlock(GameObject block)
+    {
+        yield return new WaitForSeconds(5f); // 5秒待機
+        block.SetActive(true); // ブロックを再表示
+    }
+
 
     IEnumerator ResetEffectTrigger()
     {
