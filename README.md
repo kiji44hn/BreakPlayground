@@ -50,7 +50,7 @@
 ---
 
 ## 📸 **スクリーンショット**  
-![image](https://github.com/user-attachments/assets/0c507bcf-63c9-44db-a8dc-a814090b3573)
+![image](https://github.com/user-attachments/assets/2ca644c6-b335-4f3c-8c0c-f97d6f9a882e)
 
 ---
 
