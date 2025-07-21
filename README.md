@@ -12,6 +12,11 @@
 
 ---
 
+## ストーリーボード
+詳細な演出設計については、[BreakPlaygroundのストーリーボード](./BreakPlayground-storyboard.md) をご覧ください。
+
+---
+
 ## ⚙ **使用技術**  
 - **Unity**: 物理演算を支えるRigidbody2D/Collider2Dの動的な制御
 - **PostProcess演出**: Bloomで柔らかな光を表現
